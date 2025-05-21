@@ -68,10 +68,11 @@
 
 </ul>
 <caption> name of favourites vegitables</caption>
-<ul>
+<ol>
         <li>
             Carrot
         </li>
+        </hd>
         <li>
             colour:Orange
         </li>
@@ -79,8 +80,8 @@
             season: all
         </li>
     
-    </ul>
-    <ul>
+    </ol>
+    <ol>
         <li>
             Tomato
         </li>
@@ -91,9 +92,9 @@
             season: Winter
         </li>
     
-    </ul>
+    </ol>
 
-<ul>
+<ol>
         <li>
             Potato
         </li>
@@ -104,9 +105,9 @@
             season: all
         </li>
     
-    </ul>
-    <ul>
-        <li>
+    </ol>
+    <ol >
+        <li >
             Papaya
         </li>
         <li>
@@ -116,8 +117,8 @@
             season: all
         </li>
     
-    </ul>
-    <ul>
+    </ol>
+    <ol>
         <li>
             Cucomber
         </li>
@@ -128,25 +129,57 @@
             season: all
         </li>
     
-    </ul>
+    </ol>
 </ol>
 <table>
+    
+<caption> <b> favourite and unfavourite foods list:</b></caption>
+    
+    <br>
+    <t head>
     <tr>
-    <th><b>Fvourite foods</b></th>
-    <br >
-    <th><b>Unfavourite foods</b></th>
-    </tr>
-</tr>
-        <td>
-            Meat,Egg,Fish,Milk,Peanut
-        </td>
-        <pre>
-        
-        <td>
-                                                     Some selective vegitables and fruits
+       <th>
+         favourite 
+       </th>
+       
+       <th>
+           unfavourite
+       </th>
 
-        </td>
-        </pre>
+    </tr>
+</t head>
+<t body>
+<tr>
+        <td>Meat</td>
+        <td>specific vegitables</td>
+        </tr>
+        <tr>
+ <td>Fish</td>
+        <td>specific fruits</td>
+
+    </tr>
+</t body>
+</table>
+<table>
+    <t head>
+<tr>
+
+<th
+    colspan>
+    More items
+</th>
+</tr>
+<tr>
+        
+        
+       
+ <td>Milk</td>
+        <td>egg</td>
+
+    </tr>
+    </head>
+</table>
+        
     
 
 
@@ -154,26 +187,87 @@
     
 
 </table>  
+<br>
+<p>
+    <h4>
+       Log in to choose your fav items:-
+    </h4>
+</p>
+
  <form action="/action.php">
     <input type="text" placeholder="username">
+    <br>
+    <br>
     <input type="password" placeholder="password">
-</form>
-<input type="radio" value="class XI" name="class"> classXI
-<input type="radio" value="class XII" value="class"> classXII
-</lable>
 
-<lable for="math">
-    <input type="checkbox"value"math" name="subject"id="101">
+
+<br>
+</form>
+<br>
+<p><b>
+    Biriyani your-------?
+</b></p>
+
+
+
+<label for "1"> <!-- for leveling or more specific information-->
+    <!-- without level(<input type="radio" value="fav food" name="food">fav food)-->
+    <input type="radio" value="fav food" name="food" "id="1">fav food
     </lable>
-  <lable for="phy">
-    <input type="checkbox"value"phy" name="subject"id="101">
-    </lable>
+<br>
+<lable for "2">
+    <input type="radio" value="unfav food" name="food" "id=2">unfav food
+</label>
+</form>
+<br>
+<p>
+    <b>
+        Do you love either of these two, or both?
+    </b>
+</p>
+<form>
+    <label for ="Chicken roast">
+        <input type="checkbox" value"Chicken roast" name="item" id="10">Chicken roast
+    </label>
+    <label for ="Mutton rezala">
+        <input type="checkbox" value"Mutton razala" name="item" id="10">Mutton rezala
+    </label>
+    <br>
+    <br>
+    <p>
+        <b>
+            Which food do you never get tired of eating?
+        </b>
+    </p>
+    <select name="more items">
+        <option value ="Kacchi">Kacchi</option>
+        <option value ="Chicken fry">Chicken fry</option> 
+         <option value ="Prawn malai">Prawn malai</option>
+          <option value ="Kurma">Prawn malai</option>
+
+
+    </select>
+    <br>
+    <br>
+
+    <textarea name="feedback" id="10" placeholder="give your opinion or feedback of my food list here"rows=5>feedback</textarea>
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    </inputtype>
+</form>
+<br>
+<br>
+<p>
+    <b>
+        You'll find a video below to explore some Bangladeshi food
+    </b>
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIMJ_GHCr2Q?si=KGiN-d81mlRIuBuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
 
 </main>
 <footer>
-   <p>
-    The end
-   </p>
+  <h4> Thanks for visiting</h4>
 </footer>
     </body>
 </html>
